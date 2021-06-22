@@ -19,7 +19,7 @@ class Main extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            currentState: true
+            currentPage: 'home'
         }
     }
     render() {
@@ -46,6 +46,7 @@ class Main extends React.Component {
                     </Route>
                 </Switch>
             </Router> 
+            <Footer />
             </div>
         )
     }

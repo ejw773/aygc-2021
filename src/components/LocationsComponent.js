@@ -3,7 +3,7 @@ import React from 'react';
 const Locations = () => {
     return (
         <div>
-            <h1>Locations Page</h1>
+            <h1 style={{color: 'black'}}>Locations Page</h1>
         </div>
     )
 }
