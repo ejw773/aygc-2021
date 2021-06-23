@@ -1,14 +1,14 @@
 import './App.css';
 import Main from './components/MainComponent'
-import { HashRouter } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
       <div className="App container-fluid">
         <Main />
       </div>
-    </HashRouter>
+    </Router>
   );
 }
 
