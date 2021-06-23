@@ -6,7 +6,6 @@ import Locations from './LocationsComponent'
 import Production from './ProductionComponent'
 import Contact from './ContactComponent'
 import Home from './HomeComponent'
-import Jumbotron from './JumbotronComponent'
 
 import {
     BrowserRouter as Router,
@@ -19,7 +18,8 @@ class Main extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            currentPage: 'home'
+            currentPage: 'home',
+            pageOptions: ['home', 'about', 'locations', 'production', 'contact']
         }
     }
     render() {
@@ -27,10 +27,9 @@ class Main extends React.Component {
             <div>
             <Router>
                 <Header />
-                <Jumbotron />
                 <Switch>
                     <Route path="/about">
-                        <About />
+                        <About props={this.state}/>
                     </Route>
                     <Route path="/locations">
                         <Locations />

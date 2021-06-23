@@ -14,24 +14,28 @@ const Footer = () => {
                   <a
                     href="https://www.facebook.com/AYGCINC"
                     target="_blank"
+                    rel="noreferrer"
                     className="text-reset social"
                     ><i className="fab fa-facebook-f"></i
                   ></a>
                   <a
                     href="https://twitter.com/aygcinc"
                     target="_blank"
+                    rel="noreferrer"
                     className="text-reset social"
                     ><i className="fab fa-twitter"></i
                   ></a>
                   <a
                     href="https://www.linkedin.com/company/american-yuncheng-gravure-cylinder-inc./"
                     target="_blank"
+                    rel="noreferrer"
                     className="text-reset social"
                     ><i className="fab fa-linkedin"></i
                   ></a>
                   <a
                     href="https://www.instagram.com/yuncheng.usa/"
                     target="_blank"
+                    rel="noreferrer"
                     className="text-reset social"
                     ><i className="fab fa-instagram"></i
                   ></a>

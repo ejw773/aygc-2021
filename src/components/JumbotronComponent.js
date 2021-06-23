@@ -1,9 +1,15 @@
 import React from 'react';
 
-const Jumbotron = () => {
+const Jumbotron = (props) => {
+    const jumbotronPage = "jumbotron-" + props.currentPage;
+    let bannerColor = 'black';
+    if (props.currentPage === "home") {
+        bannerColor = 'copper';
+    }
+    const aygcBanner = "aygc-banner-" + bannerColor;
     return (
-        <header className="jumbotron jumbotron-home jumbotron-fluid">
-            <div className="contianer aygc-banner-copper">
+        <header className={jumbotronPage + " jumbotron jumbotron-fluid"}>
+            <div className={aygcBanner + " contianer"}>
             <h1 className="text-center jumbotron-h1">AYGC, Inc.</h1>
             <p className="text-center jumbotron-p">Gravure Cylinder Engraving</p>
             </div>
