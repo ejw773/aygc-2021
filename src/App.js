@@ -1,15 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import Main from './components/MainComponent'
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App container-fluid">
         <Main />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
