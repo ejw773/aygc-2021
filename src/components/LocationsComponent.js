@@ -10,10 +10,10 @@ const Locations = () => {
             <Jumbotron currentPage="locations"/>
             <div className="container container-fluid">
                 <div className="row">
-                    <img className="img-fluid" src={YunchengMap} />
+                    <img className="img-fluid" src={YunchengMap} alt="World Map" />
                 </div>
                 <div className="row">
-                    <img className="img-fluid" src={YunchengLocations} />
+                    <img className="img-fluid" src={YunchengLocations} alt="Yuncheng Locations" />
                 </div>
             </div>
         </div>
