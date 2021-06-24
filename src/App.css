@@ -121,3 +121,7 @@ footer p {
 .text-copper {
     color: #dca47d;
 }
+
+.card-container {
+  margin: auto;
+}

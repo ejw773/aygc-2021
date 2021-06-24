@@ -3,12 +3,12 @@ import Jumbotron from './JumbotronComponent';
 import Card from  './CardComponent'
 // import ohioImage from '../images/';
 // import polishmaster from '../images/';
-import k5 from '../images/K5Smart.jpg';
+import k5 from './img-square/K5Smart.jpg';
 // import platingLine from '../images/';
 // import acigraf from '../images/';
-import fingerprint from '../images/012.jpg';
-import inventory from  '../images/005.jpg'
-import dere from '../images/002.jpg';
+import fingerprint from './img-square/012.jpg';
+import inventory from  './img-square/005.jpg'
+import dere from './img-square/002.jpg';
 // import prepress from '../images/';
 
 
@@ -64,14 +64,16 @@ const Production = () => {
     return (
         <div>
             <Jumbotron currentPage="production"/>
-            <div className="row">
-                {productionData.map((item) => (
-                    <Card 
-                    key={item.prodIndex}
-                    text={item.title}
-                    image={item.image}
-                    />
-                ))}
+            <div className="container-fluid card-container">
+                <div className="row">
+                        {productionData.map((item) => (
+                            <Card 
+                            key={item.prodIndex}
+                            text={item.title}
+                            image={item.image}
+                            />
+                        ))}
+                </div>
             </div>
         </div>
     )
