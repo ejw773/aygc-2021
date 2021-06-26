@@ -36,9 +36,9 @@ const About = () => {
                         text={feature.featureText}
                         />
                     ))}
-                </div>
             </div>
         </div>
+    </div>
     )
 }
 

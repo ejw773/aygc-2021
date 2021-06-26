@@ -1,6 +1,6 @@
 import './App.css';
 import Main from './components/MainComponent'
-import { HashRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
