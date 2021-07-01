@@ -42,4 +42,5 @@ export const contactData = [
         contactTitle: 'A Town Named After a Revolutionary War Militia',
         contactText: 'AYGC is located in the charming town of Spartanburg, South Carolina. The local area is known for BMW manufacturing, and as the corporate home of Denny’s. Spartanburg was formed in 1785 and was named after a local Revolutionary War militia unit, called the Spartan Regiment.<br />The downtown area, peppered with restaurants and cafes, preserves much of that old-time small-town feel.<br />Feel free to get in touch with us through the information below.'
     }
-]
+];
+
