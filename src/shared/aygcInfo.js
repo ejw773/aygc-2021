@@ -1,4 +1,4 @@
-export const featureData = [
+export const FEATUREDATA = [
     {
         featureIndex: 0,
         featureIcon: "bi-globe",
@@ -20,7 +20,7 @@ export const featureData = [
 ];
 
 
-export const homeData = [
+export const HOMEDATA = [
     {
         index: 0,
         homeImage: '',
@@ -35,7 +35,7 @@ export const homeData = [
     }
 ];
 
-export const contactData = [
+export const CONTACTDATA = [
     {
         index: 0,
         contactImage: '',
