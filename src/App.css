@@ -123,5 +123,6 @@ footer p {
 }
 
 .card-container {
+  display: flex;
   margin: auto;
 }
